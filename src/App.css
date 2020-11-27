@@ -1,0 +1,57 @@
+.container{
+  text-align: center;
+  background-image: url(background-quiz1.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  height: 80%;
+}
+
+.option{
+  margin-top: 40px;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 5%;
+  padding:12px;
+}
+
+.quiz{
+  margin: 180px;
+  text-align: center;
+  justify-content: center;
+}
+
+.question-box{
+  border: 3px solid;
+	border-image-slice: 1;
+	border-image-source:linear-gradient(180deg , yellow 48%, blue 100%);
+  padding:12px;
+}
+
+.score-section{
+  font-size: 50px;
+  width: 70%;
+  height: 100px;
+  margin:auto;
+  font-weight: bolder;
+  border: 3px solid;
+	border-image-slice: 1;
+	border-image-source:linear-gradient(180deg , yellow 48%, blue 100%);
+}
+
+.congrats{
+  border: 3px solid;
+  border-image-slice: 1;
+  border-image-source:linear-gradient(180deg , yellow 48%, blue 100%);
+}
+
+.result{
+  height: 400px;
+  width: 400px;
+}
+
+.fa-list-alt{
+  margin-top: 200px;
+  font-size: 100px;
+}
